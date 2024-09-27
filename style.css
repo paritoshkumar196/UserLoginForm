@@ -64,7 +64,7 @@ border-radius: 5px;
     justify-content: space-around;
 }
 .btnfield button{
-    flex-basis: 49%;
+    flex-basis: 48%;
     padding: 10px 10px;
     border-radius: 5px;
     border: 0;
