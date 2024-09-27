@@ -3,6 +3,7 @@ const signup = document.getElementById("sign-up");
 const username = document.getElementById("username");
 const title=document.querySelector('.title');
 const text=document.querySelector('.text')
+document.querySelector('body');
 
 signin.addEventListener("click", () => {
   username.style.maxHeight = "0";
