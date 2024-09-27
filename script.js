@@ -4,7 +4,7 @@ const username = document.getElementById("username");
 const title=document.querySelector('.title');
 const text=document.querySelector('.text')
 
-signin.addEventListener("click", () => {
+signin.addEventListener("click", (e) => {
   username.style.maxHeight = "0";
   signin.classList.add("disable");
   signup.classList.remove("disable");
@@ -12,7 +12,7 @@ signin.addEventListener("click", () => {
   text.style.opacity='1';
 });
 
-signup.addEventListener("click", () => {
+signup.addEventListener("click", (e) => {
   username.style.maxHeight = "60px";
   signin.classList.remove("disable");
   signup.classList.add("disable");
